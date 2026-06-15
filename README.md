@@ -1,4 +1,6 @@
-# WiseL-Language-FASM-Python-
+# WiseL Language (FASM + Python)
+
+```text
 📁 WiseL (Корень проекта)
 │
 ├── 📄 main.wise             (Код твоей программы)
@@ -10,3 +12,4 @@
     ├── 📄 oniLink.py        (Главный движок компилятора)
     ├── 📄 oniConditions.py  (Модуль для логики if/else)
     └── 📄 out.asm           (Промежуточный код ассемблера)
+```
