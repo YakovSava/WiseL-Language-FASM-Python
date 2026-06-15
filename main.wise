@@ -1,0 +1,26 @@
+Use ConsoleX64
+
+init main:
+    # 1. Создание статических переменных разных типов
+    string lang = "WiseL"
+    int a = 15
+    int b = 5
+
+    print "=== ТЕСТ: [print] & [math] ==="
+    print [lang] + " Compiler is fully working!"
+    print "Результат сложения 15 + 5:"
+    print [a + b]
+
+    print "=== ТЕСТ: [input] ==="
+    string user_name = input("Введите ваше имя: ")
+    print "Привет, " + [user_name] + "!"
+
+    print "=== ТЕСТ: [if / else] ==="
+    if [user_name] == "Webches" {
+        print "Доступ разрешен. Приветствую, Создатель! :)"
+    } else {
+        print "Доступ открыт в режиме гостя для: " + [user_name]
+    }
+
+    print "=== ТЕСТ: [system] ==="
+    system "pause"
